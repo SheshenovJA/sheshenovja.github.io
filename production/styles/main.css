@@ -31,6 +31,23 @@ width: 40%;
     padding-left: 18px;
     float: right;
 }
+
+@media (max-width: 480px) {
+  .parallax-window {
+    height: 150px;
+  	background: transparent;
+  }
+#main-header{
+  display: flex;
+  flex-direction: row;
+  height: 120px;
+}
+#logo-contacts{
+  padding-right: 0px;
+}
+
+}
+
 .parallax-window {
 	min-height: 450px;
 	background: transparent;
@@ -100,6 +117,11 @@ line-height: 20pt;
 #btn-center{
 padding-top: 10px;
 text-align: center;
+}
+@media (max-width: 480px) {
+  #main-info{
+   height: 620px;
+  }
 }
 #cat-details, #item-details{
   border-radius: 5px;
@@ -222,12 +244,13 @@ nav ul li ul li a {
   position: absolute;
   top: 0;
   right: 0;
+  margin-top: 120px;
   background: #262626;
   height: 70px;
   width: 70px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 640px) {
   .nav-mobile {
     display: block;
   }
@@ -254,7 +277,7 @@ nav ul li ul li a {
     position: static;
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 640px) {
   .nav-list {
     display: block !important;
   }
