@@ -53,6 +53,11 @@ width: 40%;
 	min-height: 450px;
 	background: transparent;
 }
+.parallax-window:first-child {
+  padding-top: 180px;
+	min-height: 450px;
+	background: transparent;
+}
 .main-banner{
   display: inline;
 }
