@@ -16,6 +16,7 @@ opacity: 0.95;
 }
 #logo-img{
 width: 25%;
+display: inherit;
 }
 #logo-info{
 margin-top: 14px;
